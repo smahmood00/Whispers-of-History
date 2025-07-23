@@ -1,5 +1,5 @@
 # Output directories
-OUTPUT/
+test_projectOUTPUT/*
 the_lion_of_persia_*/
 
 # Python cache
