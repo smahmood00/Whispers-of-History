@@ -54,7 +54,7 @@ class BedtimeImageGenerator(BaseComponent):
             scene: Scene data with image_prompt
             
         Returns:
-            Enhanced prompt optimized for vintage historical illustrations without faces
+            Enhanced prompt optimized for vintage historical illustrations 
         """
         base_prompt = scene["image_prompt"]
         
