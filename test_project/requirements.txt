@@ -1,0 +1,23 @@
+# Core dependencies
+google-genai>=0.3.0
+pillow>=10.0.1
+requests>=2.31.0
+numpy>=1.24.3
+
+# Audio processing
+soundfile>=0.12.1
+kokoro-onnx==0.4.9
+
+# Video processing
+ffmpeg-python>=0.2.0
+
+# Speech recognition
+openai-whisper>=20231117
+
+# YouTube API
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.1.0
+
+# Utilities
+python-dotenv>=1.0.0 

@@ -1,0 +1,86 @@
+# Output directories
+OUTPUT/
+the_lion_of_persia_*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+bedtime_env/
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive files
+client_secrets.json
+youtube_token.pickle
+
+# Test outputs
+thumbnail_test/
+test_outputs/ 
+
+
+
+# Output directories
+test_project/OUTPUT/*
+test_project/the_lion_of_persia_*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+bedtime_env/
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive files
+#client_secrets.json
+#youtube_token.pickle
+
+# Test outputs
+thumbnail_test/
+test_outputs/
+
+# Explicitly ignore large binaries and model files in test_project
+
+test_project/ffmpeg/
+test_project/kokoro/
+test_project/OUTPUT/*.mp4
+test_project/OUTPUT/*.avi
+test_project/OUTPUT/*.mov
+test_project/OUTPUT/*.mkv
+test_project/OUTPUT/*.webm
+test_project/OUTPUT/*.wav
+test_project/OUTPUT/*.flac
+test_project/OUTPUT/*.ogg
+test_project/OUTPUT/*.aac
+test_project/OUTPUT/*.wma
+test_project/models/
+test_project/kokoro
