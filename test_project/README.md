@@ -46,6 +46,18 @@ This project generates calming, bedtime history videos from a single prompt. It 
   pip install -r requirements.txt
   ```
 
+### 2.1. **Install Kokoro TTS (for Audio Generation)**
+Kokoro TTS is required for generating narration audio. Install the package and download the model files as follows:
+
+```bash
+pip install -U kokoro-onnx soundfile
+wget https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+wget https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+```
+
+- Place the downloaded files (`kokoro-v1.0.onnx` and `voices-v1.0.bin`) in the `kokoro/` directory at the project root.
+- These files are required for the TTS step in the pipeline.
+
 ### 3. **Install FFmpeg and FFprobe (Required for Video/Audio Processing)**
 - The pipeline requires FFmpeg and FFprobe binaries.
 - **Windows:**
